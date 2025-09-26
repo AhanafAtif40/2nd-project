@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Landing Page</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow">
+    <div class="max-w-6xl mx-auto px-6 flex justify-between items-center py-4">
+      <div class="flex items-center gap-2">
+        <div class="w-8 h-8 bg-red-600 text-white flex items-center justify-center rounded">
+          <img src="./assets/logo.png" alt="">
+        </div>
+        <span class="font-bold">FileWisely</span>
+      </div>
+      <nav class="hidden md:flex gap-6 text-sm text-gray-600">
+        <a href="#">About</a>
+        <a href="#">How it works</a>
+        <a href="#">Testimonial</a>
+      </nav>
+      <div class="flex gap-3">
+        <a href="#" class="px-4 py-2 text-sm border rounded">Register</a>
+        <a href="#" class="px-4 py-2 text-sm bg-red-600 text-white rounded">Sign in</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-red-50">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center px-6 py-12">
+      <div>
+        <h1 class="text-4xl font-bold text-red-700">Whoo Whoo here<br>and we are ready</h1>
+        <p class="mt-4 text-gray-600">AI-powered help for claims, policy storage, and disaster readiness all in one secure vault.</p>
+        <a href="#" class="mt-6 inline-block px-6 py-3 bg-red-600 text-white rounded">Get Early Access</a>
+      </div>
+      <div>
+        <img src="./assets/hero-img.png" alt="" class="rounded-lg shadow">
+      </div>
+    </div>
+  </section>
+
+  <!-- Value Proposition -->
+  <section class="max-w-6xl mx-auto text-center px-6 py-12">
+    <h2 class="text-2xl font-bold text-red-600">Value Proposition</h2>
+    <p class="mt-2 text-gray-500">Be prepared, stay organized, and make smarter decisions all in one secure platform.</p>
+
+    <div class="mt-8 grid md:grid-cols-3 gap-6 text-left">
+      <div class="bg-white p-6 rounded shadow">
+        <div>
+          <img src="./assets/owl.svg" alt="">
+        </div>
+        <h3 class="font-semibold">Stay Ahead Of Surprises</h3>
+        <p class="text-sm text-gray-500 mt-7">Prepare for the unexpected with a tool that  keeps you protected.</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow">
+         <div>
+          <img src="./assets/owl.svg" alt="">
+        </div>
+        <h3 class="font-semibold">Keep Everything Organized</h3>
+        <p class="text-sm text-gray-500 mt-7">Securely store policies and critical info in one place.</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow">
+         <div>
+          <img src="./assets/owl.svg" alt="">
+        </div>
+        <h3 class="font-semibold">Gain The Upper Hand</h3>
+        <p class="text-sm text-gray-500 mt-7">Get insights that help you make smarter insurance decisions.</p>
+      </div>
+    </div
+  </section>
+  <div class="flex flex-col md:flex-row items-start justify-between gap-6 p-8 bg-white">
+
+  <!-- Left Side -->
+  <div class="flex flex-col gap-6 w-full md:w-1/2">
+
+    <!-- Protect -->
+    <div class="bg-red-400 text-white p-6 rounded-xl shadow-md flex gap-4 items-start">
+      <!-- Shield Icon -->
+      <svg xmlns="./assets/1.png" class="w-10 h-10 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3l8 4v5c0 5.25-3.5 10-8 11-4.5-1-8-5.75-8-11V7l8-4z" />
+      </svg>
+      <div>
+        <h3 class="font-bold text-lg">Protect</h3>
+        <p>Safeguard your documents and photos in a private, encrypted vault.</p>
+      </div>
+    </div>
+
+    <!-- Prepare -->
+    <div class="bg-red-400 text-white p-6 rounded-xl shadow-md flex gap-4 items-start">
+      <!-- Clipboard Icon -->
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 2h6a2 2 0 012 2h1a2 2 0 012 2v14a2 2 0 01-2 2H6a2 2 0 01-2-2V6a2 2 0 012-2h1a2 2 0 012-2z" />
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 6h6" />
+      </svg>
+      <div>
+        <h3 class="font-bold text-lg">Prepare</h3>
+        <p>Capture the condition of your property before disaster strikes.</p>
+      </div>
+    </div>
+
+    <!-- File -->
+    <div class="bg-red-400 text-white p-6 rounded-xl shadow-md flex gap-4 items-start">
+      <!-- Folder Icon -->
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7h6l2 2h10v10a2 2 0 01-2 2H5a2 2 0 01-2-2V7z" />
+      </svg>
+      <div>
+        <h3 class="font-bold text-lg">File</h3>
+        <p>Turn chaos into control when it matters most.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Right Side -->
+  <div class="w-full md:w-1/2 flex flex-col justify-center items-start">
+    <h2 class="text-3xl font-bold text-red-500 mb-4">How It Works</h2>
+    <p class="text-gray-600 mb-6">
+      Protect. Prepare. File. Instead of detailing features, keep it to outcomes.
+    </p>
+    <button class="bg-red-600 hover:bg-red-700 text-white font-semibold px-6 py-3 rounded-md">
+      Join Waitlist
+    </button>
+  </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+ /* <style type="text/tailwindcss"> */
+    @theme {
+  --color-primary-gray: #353749;
+  --color-primary-blue: #0c1634;
+  --color-secondary-blue: #193071;
+  --color-secondary-gray: #b1b2b9;
+  --color-light-blue: #3990a9;
+  --color-primary-red:#CC1609;
+  --color-secondary-red:#CB5549;
+  --color-primary-cyan:#968B7C;
+  --color-secondary-white:#F9F9F9;
+
+  --shadow-primary: 0 4px 25px -4px rgba(0, 0, 0, 0.1);
+  --shadow-secondary: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -4px rgba(0, 0, 0, 0.1);
+
+  --breakpoint-xs: 375px;
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 576px;
+  --breakpoint-lg: 768px;
+  --breakpoint-xl: 1024px;
+  --breakpoint-2xl: 1320px;
+
+  --container-max-width: 1320px;
+  --container-padding-x: 1rem;
+}
+
+.container {
+    max-width: var(--container-max-width);
+    padding-left: var(--container-padding-x);
+    padding-right: var(--container-padding-x);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* </style> */
